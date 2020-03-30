@@ -1,0 +1,24 @@
+
+td,th{
+    border: 1px solid black;
+
+}
+table{
+    border-collapse: collapse;
+}
+select{
+
+    padding-right: 0px;
+    width: 110px;
+    color: red;
+
+}
+button{
+    width: 76px;
+}
+p{
+    color: #1c5fff;
+}
+th{
+    background-color: orange;
+}

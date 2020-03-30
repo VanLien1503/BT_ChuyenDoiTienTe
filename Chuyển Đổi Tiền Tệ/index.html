@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển Đổi Tiền Tệ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Chuyển Đổi Tiền tệ</h1>
+<hr>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Curency</th>
+        <th>Kết Quả</th>
+    </tr>
+    <tr>
+        <td><input type="number"id="number"placeholder="Số Lượng Muốn Nhập"></td>
+        <td>
+            <select id="curren" >
+<!--                onchange="FromCurrency(this)"-->
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+        </td>
+        <td>
+            <select id="ToCurrency">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+        </td>
+        <td><button type="button" onclick="result()">Run</button></td>
+    </tr>
+</table>
+<p id="result"></p>
+<script src="app.js"></script>
+
+</body>
+</html>
